@@ -1,0 +1,5 @@
+x=input("Print first no. ")
+y=input("Print second no. ")
+z=input("Print third no. ")
+print('Your average is: ')
+print((int(x)+int(y)+int(z))/3)

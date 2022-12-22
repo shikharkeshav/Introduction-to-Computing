@@ -1,0 +1,5 @@
+x=int(input("Print first no. "))
+y=int(input("Print second no. "))
+z=int(input("Print third no. "))
+print('Max no. is: ')
+print(max(x,y,z))
