@@ -1,6 +1,9 @@
-def fact(n):
-    if n==1:
-        return 1
-    else:
-        return fact(n-1)
-print(fact(5))
+def pascal_triangle(n):
+   trow = [1]
+   y = [0]
+   for x in range(max(n,0)):
+      print(trow)
+      trow=[l+r for l,r in zip(trow+y, y+trow)]
+   return n>=1
+k=int(input("please enter no of rows"))
+pascal_triangle(k) 
